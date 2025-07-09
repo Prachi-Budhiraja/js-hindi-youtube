@@ -42,7 +42,34 @@ console.log(typeof outtemp);  // object
 console.log(typeof heros); // object
 
 
-
-
-
 // Javascript id a dynamically typed language
+
+
+
+
+// *********************************************************************************
+
+// two types of memory
+// Stack(Primitive)(call by value) , Heap(Non primitive)(by reference)
+
+let myFullName = "Prachi Budhiraja"
+
+let anotherName = myFullName
+anotherName = "Prachi"
+
+console.log(myFullName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "use@sbi",
+}
+
+let userTwo = userOne
+
+userTwo.email = "prachi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+

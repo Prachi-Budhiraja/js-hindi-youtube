@@ -4,6 +4,8 @@
 
 // 7 types: String, Number, Boolean, Null, Undefined, Symbol (unique value) , BigInt
 
+// there are call by value
+
 const score = 100
 const scoreValue = 100.4
 

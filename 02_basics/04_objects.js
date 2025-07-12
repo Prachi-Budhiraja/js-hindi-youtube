@@ -75,7 +75,19 @@ const {courseInstructor : instructor} = course
 console.log(instructor);
 
 
+// JSON breif
+
+{
+    "name": "Hitesh",
+    "coursename": "JS in hindi",
+    "price": "free"
+}
 
 
+[
+    {},
+    {},
+    {},
+]
 
 
